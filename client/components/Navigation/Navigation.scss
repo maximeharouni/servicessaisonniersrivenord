@@ -1,0 +1,46 @@
+.navigation {
+  z-index: 999;
+  background: #95a5a6;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navigation--home {
+  position: absolute;
+  background: none; /* #95a5a6; */
+  width: 100%;
+}
+
+.navigation ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  float: right;
+
+  &>li {
+    display: inline;
+    position: relative;
+  }
+}
+
+.navigation a {
+  display: inline-block;
+  position: relative;
+
+  & i {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    text-align: center;
+    width: 25px;
+    padding: 12px 0;
+  }
+}
+
+a:visited, a:hover, a:active, a:focus {
+  text-decoration: none;
+}

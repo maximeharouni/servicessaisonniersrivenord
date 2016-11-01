@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Accueil",
+    "icon": "home",
+    "link": "/home"
+  },
+  {
+    "text": "Services",
+    "icon": "car",
+    "link": "/services"
+  },
+  {
+    "text": "Informations",
+    "icon": "info",
+    "link": "/info"
+  },
+  {
+    "text": "Contact",
+    "icon": "flag",
+    "link": "/about"
+  }
+]

@@ -1,0 +1,19 @@
+.datagrid__search__search {
+  width: 50%;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.datagrid__search__add-button {
+  width: 50%;
+  display: inline-block;
+  padding-left: 10px;
+
+  & .input-group {
+    float: right;
+  }
+
+  & .btn-add>i {
+    margin-left: 10px;
+  }
+}

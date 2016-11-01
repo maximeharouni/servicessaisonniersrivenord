@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>MHWeb</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="build/bundle.css">
+	<meta name="viewport" content="width=device-width,height=device-height initial-scale=1">
+</head>
+<body>
+  <div id="app">
+		Public index
+  </div>
+  <script id="__bs_script__">//<![CDATA[
+      document.write("<script async src='http://HOST:3001/browser-sync/browser-sync-client.2.13.0.js'><\/script>".replace("HOST", location.hostname));
+  //]]></script>
+  	<script src="build/bundle.js"></script>
+</body>
+</html>

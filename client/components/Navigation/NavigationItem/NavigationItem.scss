@@ -1,0 +1,46 @@
+.navigation-item__toggle {
+  right: 15px!important;
+  left: auto!important;
+}
+
+.navigation-item {
+  &>a {
+    color: #34495e;
+    padding: 10px 20px 10px 50px;
+
+    &:hover:not(.navigation-item--active) {
+      color: #34495e;
+    }
+  }
+
+  &>&--active {
+    color: #fff;
+  }
+}
+
+.navigation-item__submenu {
+  background: #ecf0f1;
+  display: none;
+  padding: 5px 0!important;
+
+  &--open {
+    display: block;
+  }
+}
+
+.navigation-item__submenu-item {
+  height: 30px;
+  font-size: 12px;
+
+  &>a {
+    padding: 5px 0 5px 60px;
+
+    &:hover {
+      background: #bdc3c7;
+    }
+  }
+
+  &--active {
+    color: #34495e;
+  }
+}

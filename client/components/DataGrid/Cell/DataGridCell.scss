@@ -1,0 +1,10 @@
+.datagrid-cell {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: default;
+}
+
+.datagrid-cell--edit {
+  padding: 1px!important;
+}

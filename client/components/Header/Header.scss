@@ -1,0 +1,49 @@
+.header {
+  position: relative;
+}
+
+.header__banner {
+  width: 100%;
+}
+
+.header__overlay {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(149, 165, 166, 0.85);
+}
+
+.header__button {
+  margin: auto 80px;
+  float: right;
+
+  a {
+    display: flex;
+    height: 80px;
+    width: 300px;
+    background: none;
+    border: 8px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+
+    h2 {
+      margin: auto;
+      text-align: center;
+    }
+  }
+}
+
+.header__titles {
+  margin: auto 50px;
+}
+
+.header__brand {
+  font-size: 4em;
+  color: #fff;
+}
+
+.header__services {
+  font-size: 28px;
+}

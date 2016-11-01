@@ -1,0 +1,64 @@
+.home {
+  max-height: 100%;
+}
+
+.home__section1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.home__img {
+  width: 100%;
+}
+
+.home__img:empty {
+  /*
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  */
+}
+
+.home__overlay {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(149, 165, 166, 0.55);
+}
+
+.home__button {
+  margin: 150px 80px;
+  float: right;
+
+  a {
+    display: flex;
+    height: 80px;
+    width: 300px;
+    background: none;
+    border: 8px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+
+    h2 {
+      margin: auto;
+      text-align: center;
+    }
+  }
+}
+
+.home__titles {
+  margin: 150px 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.home__brand {
+  font-size: 5em;
+  color: #fff;
+}
+
+.home__services {
+  font-size: 4em;
+}
