@@ -8,6 +8,7 @@ gem 'thin'
 gem 'jwt'
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 gem 'pg'
+gem 'uglifier'
 
 group :development, :test do
   gem 'faker'
