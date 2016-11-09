@@ -1,0 +1,84 @@
+{
+  "abris": [
+    {
+      "id": 0,
+      "name": "Abri simple",
+      "description": "1 voiture",
+      "image": "simple_1.svg"
+    },
+    {
+      "id": 1,
+      "name": "Double abri simple",
+      "description": "2 voitures",
+      "image": "simple_2.svg"
+    },
+    {
+      "id": 2,
+      "name": "Abri double",
+      "description": "2 voitures",
+      "image": "double_2.svg"
+    },
+    {
+      "id": 3,
+      "name": "Double abri double",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    }
+  ],
+  "accessoires": [
+    {
+      "id": 0,
+      "name": "Accessoire 1",
+      "description": "1 voiture",
+      "image": "simple_1.svg"
+    },
+    {
+      "id": 1,
+      "name": "Accessoire 2",
+      "description": "2 voitures",
+      "image": "simple_2.svg"
+    },
+    {
+      "id": 2,
+      "name": "Accessoire 3",
+      "description": "2 voitures",
+      "image": "double_2.svg"
+    },
+    {
+      "id": 3,
+      "name": "Accessoire 4",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 4,
+      "name": "Accessoire 5",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 5,
+      "name": "Accessoire 6",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 6,
+      "name": "Accessoire 7",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 7,
+      "name": "Accessoire 8",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 8,
+      "name": "Accessoire 9",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    }
+  ]
+}

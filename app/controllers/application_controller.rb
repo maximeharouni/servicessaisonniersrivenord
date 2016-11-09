@@ -1,5 +1,8 @@
 class ApplicationController < ActionController::Base
-
+  def ssl_required?
+    true
+  end
+  
   def index
     logger.info "Routed to index"
     render "layouts/application.html.erb"

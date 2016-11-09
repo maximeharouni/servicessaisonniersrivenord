@@ -21,9 +21,11 @@
 
   float: right;
 
-  &>li {
-    display: inline;
-    position: relative;
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    width: 100%;
+    float: none;
+    text-align: center;
   }
 }
 

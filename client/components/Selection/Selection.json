@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Abri simple",
+    "description": "1 voiture",
+    "image": "simple_1.svg"
+  },
+  {
+    "name": "Double abri simple",
+    "description": "2 voitures",
+    "image": "simple_2.svg"
+  },
+  {
+    "name": "Abri double",
+    "description": "2 voitures",
+    "image": "double_2.svg"
+  },
+  {
+    "name": "Double abri double",
+    "description": "4 voitures",
+    "image": "double_4.svg"
+  }
+]

@@ -1,5 +1,6 @@
 .home {
   max-height: 100%;
+  max-width: 100%;
 }
 
 .home__section1 {
@@ -8,7 +9,14 @@
 }
 
 .home__img {
-  width: 100%;
+  /*  */
+  @if 100vh > 100vw {
+    width: auto;
+    height: 100vh;
+  } @else {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .home__img:empty {

@@ -1,12 +1,16 @@
 import React from 'react'
+import Selection from '/components/Selection'
+import Location from '/components/Location'
 
 import './Installation.scss'
 
+import { abris, accessoires } from './Abris.json'
+
 class Installation extends React.Component {
-  onSelect () {
+  submit () {
 
   }
-
+  
   render () {
     return (
       <div className='installation container'>
@@ -16,133 +20,20 @@ class Installation extends React.Component {
 
         <h2>Type d'abri</h2>
         <div className='abris'>
-
-          <div className='abris__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-          </div>
-          <div className='abris__option'>
-            <div className='select_quare'>
-              <img src='images/simple_2.svg' alt='simple_1' />
-            </div>
-            <h3>Abri double</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-          </div>
-          <div className='abris__option'>
-            <div className='select_quare'>
-              <img src='images/double_2.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri double</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div className='abris__option'>
-            <div className='select_quare'>
-              <img src='images/double_4.svg' alt='simple_1' />
-            </div>
-            <h3>Abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-          </div>
+          <Selection ref='abris' items={abris} width={4} />
         </div>
-                <h2>Accessoires</h2>
 
+        <h2>Accessoires</h2>
         <div className='accessoires'>
-
-          <div className='accessoires__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <div className="input-group">
-              <div className="input-group-addon">Qté</div>
-              <input type="number" className="form-control" />
-            </div>
-          </div>
-          <div className='accessoires__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <div className="input-group">
-              <div className="input-group-addon">Qté</div>
-              <input type="number" className="form-control" />
-            </div>
-          </div>
-          <div className='accessoires__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <div className="input-group">
-              <div className="input-group-addon">Qté</div>
-              <input type="number" className="form-control" />
-            </div>
-          </div>
-          <div className='accessoires__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <div className="input-group">
-              <div className="input-group-addon">Qté</div>
-              <input type="number" className="form-control" />
-            </div>
-          </div>
-          <div className='accessoires__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <div className="input-group">
-              <div className="input-group-addon">Qté</div>
-              <input type="number" className="form-control" />
-            </div>
-          </div>
-          <div className='accessoires__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <div className="input-group">
-              <div className="input-group-addon">Qté</div>
-              <input type="number" className="form-control" />
-            </div>
-          </div>
-          <div className='accessoires__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <div className="input-group">
-              <div className="input-group-addon">Qté</div>
-              <input type="number" className="form-control" />
-            </div>
-          </div>
-          <div className='accessoires__option'>
-            <div className='select_quare'>
-              <img src='images/simple_1.svg' alt='simple_1' />
-            </div>
-            <h3>Double abri simple</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <div className="input-group">
-              <div className="input-group-addon">Qté</div>
-              <input type="number" className="form-control" />
-            </div>
-          </div>
+          <Selection ref='accessoires' items={accessoires} multiple={true} width={6} />
         </div>
 
         <h2>Localisation</h2>
+        <Location />
 
-        <button className='form-control'>Envoyer</button>
+        <div className='installation__submit'>
+          <button onClick={this.submit.bind(this)}>Envoyer</button>
+        </div>
 
       </div>
     )

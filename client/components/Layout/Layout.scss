@@ -1,7 +1,24 @@
+$header-height: 45px;
+$footer-height: 35px;
+
 html, body, #app, .layout {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+
+body {
+  font-size: 14px;
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    font-size: 12px;
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 480px) {
+    font-size: 10px;
+  }
 }
 
 .layout {
@@ -10,6 +27,10 @@ html, body, #app, .layout {
 
 .page-content {
   display: flex;
-  min-height: 100%;
+  min-height: calc(100% - $header-height - $footer-height);
   background: #ecf0f1;
+}
+
+.page-content--home {
+  min-height: 100%;
 }

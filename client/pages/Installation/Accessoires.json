@@ -1,0 +1,58 @@
+{
+  "abris": [
+    {
+      "id": 0,
+      "name": "Abri simple",
+      "description": "1 voiture",
+      "image": "simple_1.svg"
+    },
+    {
+      "id": 1,
+      "name": "Double abri simple",
+      "description": "2 voitures",
+      "image": "simple_2.svg"
+    },
+    {
+      "id": 2,
+      "name": "Abri double",
+      "description": "2 voitures",
+      "image": "double_2.svg"
+    },
+    {
+      "id": 3,
+      "name": "Double abri double",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 3,
+      "name": "Double abri double",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 4,
+      "name": "Double abri double",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 5,
+      "name": "Double abri double",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 6,
+      "name": "Double abri double",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    },
+    {
+      "id": 7,
+      "name": "Double abri double",
+      "description": "4 voitures",
+      "image": "double_4.svg"
+    }
+  ]
+}

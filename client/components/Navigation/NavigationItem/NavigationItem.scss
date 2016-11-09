@@ -4,17 +4,31 @@
 }
 
 .navigation-item {
+  display: inline-block;
+  position: relative;
+
   &>a {
     color: #34495e;
     padding: 10px 20px 10px 50px;
 
-    &:hover:not(.navigation-item--active) {
+    &:hover:not(&--active) {
       color: #34495e;
     }
   }
 
   &>&--active {
     color: #fff;
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 480px) {
+    width: 50px;
+    visibility: collapse;
+
+    & i {
+      visibility: visible;
+      font-size: 1.2em;
+    }
   }
 }
 

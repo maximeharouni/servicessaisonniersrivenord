@@ -9,18 +9,6 @@ class Footer extends React.Component {
    router: React.PropTypes.any.isRequired
   };
 
-  constructor () {
-    super()
-    this.state = {
-      isOpen: true
-    }
-  }
-  renderNavigation (i, n) {
-    return (
-      <NavigationItem data={i} key={n} />
-    )
-  }
-
   render () {
     let c = classNames({
       'footer': true,
@@ -29,7 +17,9 @@ class Footer extends React.Component {
 
     return (
       <div className={c} role='footer'>
-        Services saisonniers Rive Nord © 2016 - Tous Droits Réservés
+        <div>
+          Services saisonniers Rive Nord © 2016 - Tous Droits Réservés
+        </div>
       </div>
     )
   }
